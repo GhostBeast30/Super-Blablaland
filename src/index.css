@@ -8,10 +8,6 @@ body{
   display: flex;
   justify-content: center;
   padding-top: 20px;
-  min-height: 100vh;
-  background: url(bg-pink2.png) no-repeat;
-  background-size: cover;
-  background-position: center;
 }
 .bonbons img {
   position: absolute;
