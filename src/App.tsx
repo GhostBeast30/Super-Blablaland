@@ -1,4 +1,4 @@
-import ProfilPage from "./Components/ProfilPage";
+import ProfilPage from "./Components/ProfilPage/ProfilPage";
 
 function App() {
   return <ProfilPage />;

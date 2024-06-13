@@ -1221,10 +1221,17 @@
                     border-radius: 5px;
                     box-sizing: border-box;
                     position: relative;
+                    &__skinBackground{
+                        width: 150px;
+                        height: 150px;
+                        border-radius: 5px;
+                        position: relative;
+                    }
                     &__coin-icon{
                        position: absolute;
                        margin-top: -100px;
                        margin-left: 60px;
+                      
                     }
                     &__star-icon{
                         position: absolute;
