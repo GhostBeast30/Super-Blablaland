@@ -1,0 +1,275 @@
+.profil-header{
+    width: 981px;
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    &__top{
+        width: 100%;
+        height: 139px;
+        display: flex;
+        justify-content: space-between;
+        &__avatar{
+           
+            width: 136px;
+            height: 136px;
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+ 
+            img{
+                width: 90px;
+                height: 90px;
+                position:absolute;
+                
+                &.profil-header__top__avatar__contour {
+                    width: 130px;
+                    height:130px
+                }
+
+            }
+        }
+        &__text{
+            width: 247px;
+            height: 139px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &__title {
+              & h1{ 
+            font-family: Anton;
+            font-size: 48px;
+            font-weight: 400;
+            line-height: 72.26px;
+            text-align: center;
+            box-sizing: border-box;
+            color: #FF0567  ;
+            -webkit-text-stroke-width:  1.5px ;
+            -webkit-text-stroke-color: #fff;
+            
+            }
+             & h3{
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 27.24px;
+            text-align: center;
+            color: #fff;
+            text-wrap: nowrap;
+            } 
+            } 
+            &__sub-title{
+                width: 191px;
+                height: 34px;
+                margin-top: 15px;
+                background: rgba($color: #fff, $alpha: .1);
+                border-radius: 7px;
+                display: flex;
+                justify-content: center;
+                padding-top: 5px;
+                gap: 8px;
+                
+                & h3{
+            font-family: Satisfy;
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 27.37px;
+            text-align: center;
+            color: #fff;
+        
+                }
+              
+               & i{
+                width: 14.73px;
+            height: 12.17px;
+            top: 189px;
+            left: 881px;
+            gap: 0px;
+            opacity: 0px;
+            color: #fff;
+
+               }
+            }
+        }
+        &__status{
+            width: 152px;
+            height: 139px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: flex-end;
+            &__online{
+                width: 73px;
+                height: 15px;
+                display: flex;
+                align-items: center;
+                gap: 11px;
+                margin-bottom: 15px;
+            & h3{
+                font-family: Open Sans;
+                font-size: 10px;
+                font-weight: 700;
+                line-height: 13.62px;
+                text-align: right;
+                color: #fff;
+            }
+            & i{
+                width: 15px;
+                height: 15px;
+                top: 111px;
+                left: 1412px;
+                gap: 0px;
+                opacity: 0px;
+                color: #4BBF6B;
+
+            }
+           
+            } 
+            &__like{
+                width: 77px;
+                height: 34px;
+                background: rgba($color: #fff, $alpha: .1);
+                border-radius: 8px;
+                margin-bottom: 5px;
+                display: flex;
+                gap: 11px;
+                align-items: center;
+                justify-content: center;
+                & h3{
+                    font-family: Open Sans;
+                    font-size: 10px;
+                    font-weight: 700;
+                    line-height: 13.62px;
+                    text-align: left;
+                    color: #fff;
+
+                }
+                & i{
+                    width: 21.88px;
+                    height: 18.94px;
+                    top: 149px;
+                    left: 1409px;
+                    gap: 0px;
+                    border: 2px 0px 0px 0px;
+                    opacity: 0px;
+                    color: #FF0567;
+                    -webkit-text-stroke-width:  2px ;
+                    -webkit-text-stroke-color: #fff;
+
+
+                }
+            }
+            &__signal{
+                width: 149px;
+                height: 34px;
+                background: rgba($color: #fff, $alpha: .1);
+                border-radius: 8px;
+                margin-bottom: 5px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 11px;
+                & h3{
+                    font-family: Open Sans;
+                    font-size: 10px;
+                    font-weight: 700;
+                    line-height: 13.62px;
+                    text-align: right;
+                    color: #fff;
+
+                }
+                & i{
+                    width: 24.39px;
+                    height: 24.39px;
+                    top: 185px;
+                    left: 1408px;
+                    gap: 0px;
+                    opacity: 0px;
+                    color: white;
+
+                }
+            }
+        }
+    }
+
+    &__bottom{
+        background-color: #FF0567;
+        border-radius: 8px;
+        width: 960px;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 8px;
+        h3{
+            font-family: Open Sans;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 16.34px;
+            text-align: left;
+            color: #fff;
+
+        }
+        h1{
+            font-family: Open Sans;
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 27.24px;
+            text-align: left;
+            color: #fff;
+
+        }
+        &__xp{
+            display: flex;
+            gap: 10px;
+            &__text{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+
+            }
+        }
+        &__coins{
+            display: flex;
+            gap: 10px;
+            &__text{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                
+            }
+        }
+        &__medaille{
+            display: flex;
+            gap: 10px;
+            &__text{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                
+            }
+        }
+        &__visite{
+            display: flex;
+            gap: 10px;
+            &__text{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                
+            }
+        }
+        &__likes{
+            display: flex;
+            gap: 10px;
+            &__text{
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                
+            }
+        }
+    }
+  }

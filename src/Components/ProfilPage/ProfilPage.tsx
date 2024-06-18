@@ -1,4 +1,11 @@
 import "../ProfilPage/ProfilPage.scss";
+import "../ProfilPage/ProfilPageHeader.scss";
+import "../ProfilPage/ProfilPageSignatureSection.scss";
+import "../ProfilPage/ProfilPageInformation.scss";
+import "../ProfilPage/ProfilPageSkinSection.scss";
+import "../ProfilPage/ProfilPageFriendSection.scss";
+import "../ProfilPage/ProfilPageTagSection.scss";
+import "../ProfilPage/ProfilPageMedalSection.scss";
 import bonbon from "../../assets/bonbons.svg";
 import ProfilPageHeader from "./ProfilPageHeader";
 import ProfilPageLeftSide from "./ProfilPageLeftSide";
